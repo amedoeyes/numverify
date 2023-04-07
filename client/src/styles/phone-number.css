@@ -1,0 +1,50 @@
+.phone-number-table {
+	width: 20rem;
+	border-collapse: separate;
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.phone-number-table__row {
+	background-color: var(--primary-color200);
+}
+
+.phone-number-table__row:nth-child(even) {
+	background-color: var(--primary-color300);
+}
+
+.phone-number-table__header {
+	width: 50%;
+	padding: 0.5rem;
+	text-align: start;
+}
+
+.phone-number-table__cell {
+	width: 50%;
+	padding: 0.5rem;
+}
+
+.phone-number-table-skeleton {
+	width: 20rem;
+	border-collapse: separate;
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.phone-number-table-skeleton__row {
+	height: 2.5rem;
+	background-color: var(--primary-color200);
+	background: linear-gradient(
+		to right,
+		var(--primary-color200),
+		var(--primary-color300),
+		var(--primary-color200)
+	);
+	animation: table-skeleton 1s ease infinite;
+}
+
+@keyframes table-skeleton {
+	100% {
+		background-position: 20rem, 0;
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"login.title": "Login",
+	"login.username.label": "Username",
+	"login.password.label": "Password",
+	"login.submit": "Login",
+
+	"account.logout": "Logout",
+
+	"nav.history": "History",
+
+	"search.title": "Search",
+	"search.loading": "Loading",
+	"search.error": "Something went wrong",
+
+	"history.title": "History",
+	"history.filter.date.label": "Date",
+	"history.filter.date.ascending": "Ascending",
+	"history.filter.date.descending": "Descending",
+	"history.filter.valid.label": "Valid",
+	"history.filter.valid.all": "All",
+	"history.filter.valid.valid": "Valid",
+	"history.filter.valid.invalid": "Invalid",
+	"history.filter.search.label": "Search",
+
+	"phone_number.carrier": "Carrier",
+	"phone_number.country_code": "Country Code",
+	"phone_number.country_name": "Country Name",
+	"phone_number.country_prefix": "Country Prefix",
+	"phone_number.international_format": "International Format",
+	"phone_number.line_type": "Line Type",
+	"phone_number.local_format": "Local Format",
+	"phone_number.location": "Location",
+	"phone_number.number": "Number",
+	"phone_number.valid": "Valid",
+	"phone_number.date": "Date"
+}

@@ -1,0 +1,31 @@
+.header {
+	width: 100%;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__link,
+.header .logout-button {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.header__brand {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.header__nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.header__actions {
+	display: flex;
+	gap: 1rem;
+}

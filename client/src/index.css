@@ -1,0 +1,50 @@
+@import url("./styles/preflight.css");
+
+:root {
+	--primary-color100: #fff;
+	--primary-color200: #f2f2f2;
+	--primary-color300: #e6e6e6;
+	--primary-color400: #d9d9d9;
+	--primary-color500: #cccccc;
+	--primary-color600: #bfbfbf;
+	--primary-color700: #b3b3b3;
+	--primary-color800: #a6a6a6;
+	--primary-color900: #999999;
+	--secondary-color: #000;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
+}
+
+h1 {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+h2 {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h3 {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+h4 {
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+input:focus,
+button:focus,
+select:focus {
+	outline: var(--secondary-color) solid 2px;
+}

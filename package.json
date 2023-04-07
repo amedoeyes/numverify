@@ -1,0 +1,14 @@
+{
+	"name": "numverify",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_ENV=production node dist/index.js",
+		"install": "cd server && npm i && cd ../client && npm i",
+		"build": "rm -rf dist && cd server && npm run build && mv dist ../dist && cd ../client && npm run build && mv dist ../dist/client"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
