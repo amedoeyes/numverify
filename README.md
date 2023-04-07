@@ -1,8 +1,8 @@
 # numverify
 
 ![preview](/preview.png)
-
 This is a full-stack application that uses the Numverify API to verify phone numbers.
+Deployed project: https://numverify.fly.dev/
 
 ## Server
 
